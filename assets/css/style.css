@@ -35,7 +35,7 @@ nav{
     z-index: 150;
 }
 li{
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
     display: inline;
@@ -281,30 +281,48 @@ small{
     h1{
         left: 3%;
     }
-    .about{
+    .about, .contact-form, .portfolio{
         width: 700px;
-        left: 5%;
+        left: 5%
     }
     footer{
         min-width: 980px;
     }
     small{
-        left: 25%;
-    }
-    .contact-form{
-        width: 700px;
-        left: 5%;
+        left: 37%;
     }
     input, textarea{
         width: 600px;
     }
-    .portfolio{
-        width: 700px;
-        left: 5%;
-    }
 }
 @media screen and (max-width: 768px){
-
+    h1{
+        left: 2.25%;
+    }
+    nav{
+        left: 27%;
+    }
+    .about, .contact-form, .portfolio{
+        width: 90%;
+        margin: 0px auto;
+    }
+    footer{
+        min-width: 768px;
+    }
+    small{
+        left: 37%;
+    }
+    input, textarea{
+        text-align: left;
+        width: 90%; 
+        height: auto;
+    }
+    label{
+        position: relative;
+        text-align: left;
+        width: 80%;
+        left: 40px;
+    }
 }
 @media screen and (max-width: 640px){
    /* h1{
